@@ -1,7 +1,7 @@
 # Presentation Walkthrough
 
 
-## Part 1: Demo: Showing the problem
+## Part 1: Demo the dependencies problem
 1. Bring up terminal.
 
 1. First we need to know what Python interpreter are we using?
@@ -27,4 +27,15 @@
    migrations:
 
         sudo pip install django==1.6.10 South
+
+
+## Part 2: What is virtualenv?
+
+
+## Part 3: Demo the solution
+
+## Part 4: Demo virtualenv functionality
+
+## Conclude & more resources
+
 
