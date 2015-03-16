@@ -30,12 +30,17 @@
 
 
 ## Part 2: What is virtualenv?
+1. [Problem slide](http://www.mattmakai.com/presentations/2015-virtualenv-new-pythonistas.html#/2)
+
+1. [Solution slide](http://www.mattmakai.com/presentations/2015-virtualenv-new-pythonistas.html#/3)
 
 
 ## Part 3: Demo the solution
 
+
 ## Part 4: Demo virtualenv functionality
 
-## Conclude & more resources
 
+## Conclude & more resources
+* [Application dependencies page](http://www.fullstackpython.com/application-dependencies.html)
 
