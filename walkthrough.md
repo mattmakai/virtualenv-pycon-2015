@@ -28,9 +28,15 @@
 
         sudo pip install django==1.6.10 South
 
+1. In our side project we want to use Django 1.8, which includes schema
+   migrations so South is no longer necessary.
+
+        sudo pip install django==1.8
+
+
 
 ## Part 2: What is virtualenv?
-1. [Problem slide](http://www.mattmakai.com/presentations/2015-virtualenv-new-pythonistas.html#/2)
+<img src="./img/python-system-installation.png">
 
 1. [Solution slide](http://www.mattmakai.com/presentations/2015-virtualenv-new-pythonistas.html#/3)
 
@@ -38,7 +44,7 @@
 ## Part 3: Demo the solution
 
 
-## Part 4: Demo virtualenv functionality
+## Part 4: Virtualenvwrapper and extensions
 
 
 ## Conclude & more resources
