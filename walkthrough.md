@@ -56,46 +56,47 @@ This situation is the problem virtualenv was created to solve.
 
 1. Lets create a virtualenv for our work project.
 
-    $ cd ~
+        $ cd ~
 
-    $ virtualenv work-proj
+        $ virtualenv work-proj
 
-    $ source work-proj/bin/activate
-    
-    (work-proj)$ pip install django==1.6 South
+        $ source work-proj/bin/activate
+        
+        (work-proj)$ pip install django==1.6 South
 
-    (work-proj)$ pip freeze 
+        (work-proj)$ pip freeze 
 
 
 1. Now one for our side project.
 
-    $ virtualenv side-proj
+        $ virtualenv side-proj
 
-    $ source side-proj/bin/activate
-    
-    (side-proj)$ pip install django==1.8
+        $ source side-proj/bin/activate
+        
+        (side-proj)$ pip install django==1.8
 
-    (side-proj)$ pip freeze
+        (side-proj)$ pip freeze
 
-    (side-proj)$ python manage.py migrate
+        (side-proj)$ python manage.py migrate
 
 
 1. Deactivate. Back to system Python installation.
     
-    (side-proj)$ deactivate
+        (side-proj)$ deactivate
 
-    $ pip freeze
+        $ pip freeze
+
 
 1. No Django installed.
 
-    $ python manage.py
+        $ python manage.py
 
 
 1. Back to our work project.
 
-    $ source work-proj/bin/activate
+        $ source work-proj/bin/activate
 
-    $ python manage.py --version
+        $ python manage.py --version
 
 
 Now we have separate Python interpreters for our work and side projects. So
