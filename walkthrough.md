@@ -39,6 +39,9 @@
 
    <img src="./img/python-system-installation.png">
 
+1. Django --version
+
+
 1. What now?
 
     * Do we ``pip install --upgrade django``? 
@@ -48,6 +51,9 @@
       versions installed?
 
 This situation is the problem virtualenv was created to solve.
+
+1. Demo the solution - your friend tells you about virtualenv.
+
 
 
 ## Part 2: What is virtualenv?
@@ -63,9 +69,18 @@ This situation is the problem virtualenv was created to solve.
    their own isolated dependencies.
 
    <img src="./img/python-virtualenvs.png">
-    
+  
 
-## Part 3: Demo the solution
+1. What is inside the virtualenv directory?
+
+   <img src="./img/virtualenv-focus.png">
+  
+1. Lets take a look.
+
+   <img src="./img/virtualenv-inspection.png">
+
+
+## Part 3: Show the the lib, site-packages, activate script
 
 
 ## Part 4: Virtualenvwrapper and extensions
