@@ -28,18 +28,26 @@
 
         sudo pip install django==1.6 South
 
+
+1. What is our Django version?
+
+        django-admin.py --version
+
+
 1. In our side project we want to use Django 1.8, which includes schema
    migrations so South is no longer necessary.
 
         sudo pip install django==1.8
 
 
+1. What is our Django version?
+
+        django-admin.py --version
+
 1. But we are stuck because we already have Django 1.6 installed in our
    system Python lib folder.
 
    <img src="./img/python-system-installation.png">
-
-1. Django --version
 
 
 1. What now?
@@ -50,9 +58,11 @@
     * What happens when we have like 20 different libraries that need different
       versions installed?
 
-This situation is the problem virtualenv was created to solve.
 
-1. Demo the solution - your friend tells you about virtualenv.
+## This situation is the problem virtualenv was created to solve.
+
+
+1. Demo solution - your friend tells you about virtualenv.
 
 1. Lets create a virtualenv for our work project.
 
@@ -128,6 +138,8 @@ what exactly happened here?
 
 
 ## Part 3: Show the the lib, site-packages, activate script
+*back to command line with Renee explaining*
+
 
 
 ## Part 4: Virtualenvwrapper and extensions
